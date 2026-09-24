@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 <?php
 
     //print("<h1>Testes de Mesa - Módulo Auth</h1><hr>") - Python syntax, não funciona no PHP!
@@ -79,15 +87,6 @@
     echo "E-mail recebido: " . $emailPost . "<br>";
 
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
     <form method="post">
         <input type="email" name="email_digitado" id="email" placeholder="Digite seu e-mail">
         <input type="submit" value="Enviar">
