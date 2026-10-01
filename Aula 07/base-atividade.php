@@ -8,13 +8,12 @@
      * Regras:
      * 1. O e-mail e a senha não podem estar vazios.
      * 2. O e-mail deve ter um formato válido (dica: use filter_var).
-     * 3. A senha deve ter no mínimo 8 caracteres (dica: use strlen).
+     * 3. A senha deve ter no mínimo 8 caracteres (dica: use strlen), letras maiusculas e minusculas, e caracter especial.
      * 
      * @param string $email
      * @param string $senha
      * @return array Retorna um array com o 'status' (sucesso ou erro) e a 'mensagem'.
      */
-    // function validar_login($email, $senha) {
     function validar_login(string $email, string $senha): array {
         // Desenvolva o código da função aqui, seguindo as regras acima.
 
